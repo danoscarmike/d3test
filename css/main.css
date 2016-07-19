@@ -1,0 +1,59 @@
+div.tooltip {
+    position: absolute;
+    /*text-align: center;*/
+    width: 100px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    fill: black;
+    border: 0px;
+    pointer-events: none;
+    color: red;
+}
+
+.header {
+  margin-top: 6rem;
+  text-align: left; }
+
+.quote {
+  margin: 0 50px 0 50px;
+}
+
+footer {
+  margin-top: 50px;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #51b603;
+}
+
+nav ul {
+  list-style: none;
+  font-weight: normal;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  /*flow-into: 100%;*/
+}
+
+footer ul {
+  list-style: none;
+  font-weight: normal;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 20px;
+  /*flow-into: 100%;*/
+}
+
+img.project {
+  width: 100%;
+}
+
+/* Larger than phone */
+@media (min-width: 750px) {
+  .header {
+    margin-top: 18rem; }
+}
